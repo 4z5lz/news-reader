@@ -38,5 +38,8 @@
   },
   "keywords": [],
   "author": "Vincent Kammerer <vkammerer@gmail.com> (http://vincent-kammerer.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "taffydb": "^2.7.3"
+  }
 }
