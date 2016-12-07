@@ -1,11 +1,7 @@
-import articles from './articles';
-import auth from './auth';
-import feedback from './feedback';
+import news from './news';
 import firebase from './firebase';
 
 export default Object.assign({},
-	articles,
-	auth,
-	feedback,
-	firebase
+	firebase,
+        news
 );

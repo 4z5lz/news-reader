@@ -1,12 +1,8 @@
 import { combineReducers } from 'redux';
-import articles from './articles';
-import auth from './auth';
-import feedback from './feedback';
+import news from './news';
 
 const rootReducer = combineReducers({
-	articles,
-	auth,
-	feedback,
+	news
 });
 
 export default rootReducer;

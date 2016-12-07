@@ -24,13 +24,13 @@ export default {
 	resolve: {
 		extensions: ['', '.js', '.jsx']
 	},
-	eslint: {
-		configFile: '.eslintrc'
-	},
+//	eslint: {
+//		configFile: '.eslintrc'
+//	},
 	module: {
 		preLoaders: [{
 			test: /\.js|\.jsx$/,
-			loaders: ['eslint-loader'],
+			loaders: [],//['eslint-loader'
 			exclude: ['node_modules']
 		}],
 		loaders: [{

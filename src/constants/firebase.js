@@ -1,8 +1,9 @@
 export default {
-	firebaseConfig: {
-		apiKey: 'AIzaSyCHvJ-2m_Cn_JqUxXmwqvqy9b-6FbsYtEI',
-		authDomain: 'brilliant-inferno-6675.firebaseapp.com',
-		databaseURL: 'https://brilliant-inferno-6675.firebaseio.com',
-		storageBucket: 'brilliant-inferno-6675.appspot.com',
-	}
+    firebaseConfig: {
+        apiKey: 'AIzaSyA-HlcV4jtbhB0sL2D74SK9RVH9oZIQgVU',
+        authDomain: 'js-fuseday-2016-stream.firebaseapp.com',
+        databaseURL: 'https://js-fuseday-2016-stream.firebaseio.com',
+        storageBucket: 'js-fuseday-2016-stream.appspot.com',
+        messagingSenderId: '533084422648'
+    }
 };
