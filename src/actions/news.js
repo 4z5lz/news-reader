@@ -1,7 +1,7 @@
 import C from '../constants';
 import { database } from '../firebaseApp';
 
-const newsRef = database.ref('/stream');
+const newsRef = database.ref('/stream_2');
 
 export const listenToNews = () => {
     console.log('Start listenToNews');
